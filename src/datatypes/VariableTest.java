@@ -1,3 +1,4 @@
+// day-02 - 05
 package datatypes;
 
 import java.util.Scanner;

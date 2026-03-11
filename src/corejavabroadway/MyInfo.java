@@ -1,4 +1,4 @@
-// day-01
+// day-01 - 02
 package corejavabroadway;
 
 public class MyInfo {
