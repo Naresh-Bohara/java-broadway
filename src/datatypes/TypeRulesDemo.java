@@ -1,3 +1,4 @@
+// day-02 - 06
 package datatypes;
 
 public class TypeRulesDemo {
