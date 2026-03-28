@@ -12,6 +12,11 @@ public static void main(String[] args) {
 //	area();
 //	printTable(4);
 	
+	/*
+	 * 	Parameter – The variable listed in a function’s definition (the 		“placeholder”).
+		Argument – The actual value passed to the function when it’s called.
+	 */
+	
 	int s = getSumOf1To100();
 	System.out.println(s);
 	
