@@ -13,9 +13,15 @@ public class ConstructorDocs {
  *  		# use to create object and set default values to object.
  *  		# syntax:
  *  			class_name(){
- *  				// set default values to object
+ *  				// set default values to object.
  *  			}
  *  	2. Parameterized constructor:
+ *  		# use to create object and set dynamic values to object.
+ *  		# syntax:
+ *  			class_name(arg1, arg2, arg3, ...., argn){
+ *  				// set dynamic values to object.
+ *  			}
+ *  
  *  		
  */
 }
