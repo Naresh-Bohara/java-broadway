@@ -23,8 +23,12 @@ public class MethodDocs {
 		
 	}
 	
-	int area(int l, int b) {
+	static int area(int l, int b) {
 		int a = l*b;
 		return a;
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(area(2,3));
 	}
 }
