@@ -13,6 +13,7 @@ public class InheritanceDocs {
 	 * # we can't inherit private properties, methods and constructors.
 	 * # we can inherit only one class at a time.
 	 * # multiple inheritance not exist in java with class.
+	 * # we cant inherit final class.
 	 * 
 	 * # syntax:
 	 * 		child_class_name extends parent_class_name{
