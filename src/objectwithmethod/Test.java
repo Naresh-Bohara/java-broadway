@@ -28,8 +28,14 @@ public class Test {
 	}
 	
 	// array of object as a parameter: 
-	
+	void printAllProducts(Product[] prods) {
+		
+	}
 	
 	// array of object as return type:
-	
+	Product[] getAllProducts() {
+		
+		return null;
+		
+	}
 }
