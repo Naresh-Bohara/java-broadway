@@ -34,6 +34,7 @@ public class Test {
 	
 	// array of object as return type:
 	Product[] getAllProducts() {
+		Product[] products = new Product[4];
 		
 		return null;
 		
