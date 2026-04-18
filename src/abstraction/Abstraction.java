@@ -16,7 +16,19 @@ public class Abstraction {
 	 * 							abstract void print();
 	 * 			-> every abstract class must have at least one child class and child class must override abstract methods.
 	 * 			-> we can't create object of abstract class beacause it has abstract methods which are not implemented.
+	 * 			-> level of abstration 0-100%
+	 * 	
+	 * 			# syntax:
+	 * 				abstract class class_name{
 	 * 			
+	 * 					// abstract methods
+	 * 					abstract int getArea(int l, int b);
+	 * 
+	 * 					// non-abstract methods
+	 * 					voidd sms(){
+	 * 					
+	 * 					}
+	 * 				}
 	 * 			
 	 * 
 	 * 		2. Interface
