@@ -20,6 +20,12 @@ public class Test {
 		ey.getInterestRate();
 		 */
 		
+		// up-casting
+				CentralBank ey = new EverestBank();
+				System.out.println("-------");
+				ey.getBankName();
+				ey.getInterestRate();
+		
 		NabilBank n = new NabilBank();
 		n.getBankName();
 		n.getInterestRate();
