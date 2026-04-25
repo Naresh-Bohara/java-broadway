@@ -3,6 +3,7 @@ package database;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.sql.Statement;
 
 public class TestDB {
 	public static void main(String[] args) throws ClassNotFoundException, SQLException   {
@@ -18,9 +19,14 @@ public class TestDB {
 		
 		// 1.	Insert sql:
 		//		a.	Write sql
+		String sql = "insert into user(username, password) values('ahrish', 'ahrish@123#')";
 		//		b.	Create statement
+		Statement stm = con.createStatement();
 		//		c.	Execute sql
+		stm.execute(sql);
 		//		d.	close
+		con.close();
+		System.out.println("Success!");
 
 	}
 }

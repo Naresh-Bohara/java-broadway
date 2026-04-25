@@ -1,3 +1,3 @@
-module corejavabroadway {
+module javabroadway {
     requires java.sql;
 }
