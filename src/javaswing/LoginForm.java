@@ -76,11 +76,20 @@ public class LoginForm extends JFrame {
 		JButton btnNewButton = new JButton("Login");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(null, "Hello");
+//				JOptionPane.showMessageDialog(null, "Hello");
 				// here what we do in day 25:
 				// get username and password from fields:
 				String usn = username.getText();
-				String pass = password.getText();
+//				String pass = password.getText();
+				String pass = String.valueOf(password.getPassword());
+				
+				if(usn.equals("naresh") && pass.equals("Naresh@123#")) {
+//					JOptionPane.showMessageDialog(null, "Login Success!");
+					new Home().setVisible(true);
+					dispose();
+				}else {
+					JOptionPane.showMessageDialog(null, "Invalid username or password!");
+				}
 				
 			}
 		});
