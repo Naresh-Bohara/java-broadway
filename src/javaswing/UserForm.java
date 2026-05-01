@@ -8,12 +8,13 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
 public class UserForm extends JFrame{
+	private JButton jb;
 	public UserForm() {
 		setSize(800, 200);
 		setVisible(true);
 		
 		//JButton:
-		JButton jb = new JButton("Hello");
+		jb = new JButton("Hello");
 		jb.setBounds(400, 20, 120, 30);
 		add(jb);
 		
