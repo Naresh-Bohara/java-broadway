@@ -19,8 +19,8 @@ public class LoginForm extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
-	private JTextField textField;
-	private JPasswordField passwordField;
+	private JTextField username;
+	private JPasswordField password;
 
 	/**
 	 * Launch the application.
@@ -58,10 +58,10 @@ public class LoginForm extends JFrame {
 		lblNewLabel.setBounds(37, 83, 68, 19);
 		contentPane.add(lblNewLabel);
 		
-		textField = new JTextField();
-		textField.setBounds(125, 81, 125, 24);
-		contentPane.add(textField);
-		textField.setColumns(10);
+		username = new JTextField();
+		username.setBounds(125, 81, 125, 24);
+		contentPane.add(username);
+		username.setColumns(10);
 		
 		JLabel lblNewLabel_1 = new JLabel("Password");
 		lblNewLabel_1.setFont(new Font("Tahoma", Font.PLAIN, 12));
@@ -69,14 +69,19 @@ public class LoginForm extends JFrame {
 		lblNewLabel_1.setBounds(37, 112, 61, 19);
 		contentPane.add(lblNewLabel_1);
 		
-		passwordField = new JPasswordField();
-		passwordField.setBounds(125, 110, 125, 24);
-		contentPane.add(passwordField);
+		password = new JPasswordField();
+		password.setBounds(125, 110, 125, 24);
+		contentPane.add(password);
 		
 		JButton btnNewButton = new JButton("Login");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				JOptionPane.showMessageDialog(null, "Hello");
+				// here what we do in day 25:
+				// get username and password from fields:
+				String usn = username.getText();
+				String pass = password.getText();
+				
 			}
 		});
 		btnNewButton.setForeground(new Color(64, 128, 128));
