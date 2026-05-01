@@ -14,17 +14,38 @@ public class UserForm extends JFrame{
 		setVisible(true);
 		
 		//JButton:
+//		jb = new JButton("Hello");
+//		jb.setBounds(400, 20, 120, 30);
+//		add(jb);
+		
+		// click action:
+//				jb.addActionListener(new ActionListener() {
+//					@Override
+//					public void actionPerformed(ActionEvent e) {
+//						JOptionPane.showMessageDialog(null, "Hello how are you today?");
+//					}
+//				});
+		
+		createButton();
+		
+		helloBtnAction();
+	}
+	
+	private void createButton() {
 		jb = new JButton("Hello");
 		jb.setBounds(400, 20, 120, 30);
 		add(jb);
-		
+	}
+	
+	// Hello Action:
+	private void helloBtnAction() {
 		// click action:
-		jb.addActionListener(new ActionListener() {
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(null, "Hello how are you today?");
-			}
-		});
+				jb.addActionListener(new ActionListener() {
+					@Override
+					public void actionPerformed(ActionEvent e) {
+						JOptionPane.showMessageDialog(null, "Hello how are you today?");
+					}
+				});
 	}
 	
 	public static void main(String[] args) {
