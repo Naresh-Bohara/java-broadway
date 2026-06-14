@@ -1,0 +1,8 @@
+Student Name = Naresh Bohara
+College Name = KMC
+Faculty = BSc.CSIT
+Phone = 9865431220
+Student Name = Naresh Bohara
+College Name = KMC
+Faculty = BSc.CSIT
+Phone = 9865431220
